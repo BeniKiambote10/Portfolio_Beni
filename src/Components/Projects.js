@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import NewsletterImage from "../images/BONO.png";
-import RogfreeImage from "../images/Google.png";
-import TindogImage from "../images/TindogImage.png";
+import BONOImage from "../images/BONO.png";
+import GoogleImage from "../images/Google.png";
+import RPSImage from "../images/RPS.png";
 import NetflicImage from "../images/Netflic.png";
 
 const Projects = () => {
@@ -13,9 +13,9 @@ const Projects = () => {
       </h1>
       <div className="project">
         <ProjectBox projectPhoto={NetflicImage} projectName="Netflic" />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="BONO" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="Google" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        <ProjectBox projectPhoto={BONOImage} projectName="BONO" />
+        <ProjectBox projectPhoto={GoogleImage} projectName="Google" />
+        <ProjectBox projectPhoto={RPSImage} projectName="RPS" />
       </div>
     </div>
   );

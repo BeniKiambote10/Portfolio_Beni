@@ -4,10 +4,10 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    TindogDesc:
-      "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub: "https://github.com/DevanshSahni/tindog",
-    TindogWebsite: "https://devanshsahni.github.io/tindog/",
+    RPSDesc:
+      "Rock, Paper, Scissors Game This project is a simple implementation of the classic Rock, Paper, Scissors game using HTML, CSS, and JavaScript. The game features a user interface where the user can input their choice, and it displays the result of the game after comparing the user's choice with a randomly generated computer choice.",
+    RPSGithub: "https://github.com/BeniKiambote10/Rock_Paper_scissor",
+    RPSWebsite: "https://main.dc74i1b8xmoi8.amplifyapp.com/",
 
     GoogleDesc:
       "Google Homepage Recreation This project is a beginner-level exercise aimed at recreating the Google homepage using HTML, CSS, and JavaScript.",
@@ -16,7 +16,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     BONODesc:
       "This project is a simple e-commerce website featuring a home page with a hero image or video, a products page displaying 12 products, and a contact page with a form. The website is designed to be responsive for various screen sizes",
-    BONOGithub: "git@github.com:BeniKiambote10/Ecom_Project_Beni.git",
+    BONOGithub: "https://github.com/BeniKiambote10/Ecom_Project_Beni",
     BONOWebsite: "https://main.d2ldhyoznida2j.amplifyapp.com/index.html",
 
     NetflicDesc:
